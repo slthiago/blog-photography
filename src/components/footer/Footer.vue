@@ -9,7 +9,7 @@ const props = defineProps({
   },
   copyright: {
     type: String,
-    default: "Por Thiago Santos",
+    default: "Feito com ♡ e Vue.js por Thiago Santos",
   },
 });
 

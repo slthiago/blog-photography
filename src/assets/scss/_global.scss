@@ -1,0 +1,21 @@
+@import '_variables.scss';
+
+body {
+	background: $bg-color;
+	font-family: $font-family;
+	color: $font-color;
+	padding-top: 4rem;
+}
+
+::-webkit-scrollbar {
+  width: .625rem;
+}
+
+::-webkit-scrollbar-track {
+  background: $bg-scroll;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $bg-thumb-scroll;
+	border-radius: .625rem;
+}
